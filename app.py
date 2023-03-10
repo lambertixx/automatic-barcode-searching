@@ -1,7 +1,7 @@
 import openpyxl
 from product_to_barcode import product_to_barcode
 
-planilha_vendas = "Resumo de Vendas por clientes Nov Dez Jan TRUST HAIR SOLUTIONS.xlsx"
+planilha_vendas = "SellOut Fevereiro 2023 TRUST HAIR.xlsx"
 read_sells = openpyxl.load_workbook(planilha_vendas)
 read_sells_sheet = read_sells["relFaturamentoPedidosResumidoPr"]
 
